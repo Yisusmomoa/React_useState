@@ -1,18 +1,21 @@
 // import CounterApp from "./Components/CounterApp";
 
-import ErrorApp from "./Components/ErrorApp";
+import ProductApp from "./Components/ProductApp";
+
+// import ErrorApp from "./Components/ErrorApp";
 
 // import ConditionalApp from "./Components/ConditionalApp";
 
 
-//mminuto 17:50
+//mminuto 28:30
 function App() {
 
   return (
     <div className="App">
       {/* <CounterApp></CounterApp> */}
       {/* <ConditionalApp></ConditionalApp> */}
-      <ErrorApp></ErrorApp>
+      {/* <ErrorApp></ErrorApp> */}
+      <ProductApp></ProductApp>
     </div>
   );
 }
